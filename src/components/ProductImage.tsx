@@ -10,13 +10,10 @@ interface ProductImageProps {
   className?: string,
   style?: CSSProperties
 }
-
 export function ProductImage({img = "", className, style}: ProductImageProps ){
   let {product} = useContext(ProductCardContext);
-  let {img: imgProduct, title} = product;
-  let imgToShow = img || imgProduct;
   return (
-    <img className={`${styles.productImg} ${className || ''}`} src={imgToShow ? imgToShow : noImage} alt={title} style={style || {}}/>
+    <img className={`${styles.productImg} ${className || ''}`} src={img || product?.img || noImage} alt={product?.title || 'no-image'} style={style || {}}/>
   )
 }
 

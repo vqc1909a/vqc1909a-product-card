@@ -10,12 +10,9 @@ interface ProductTitleProps {
 }
 export function ProductTitle({title = "", className, style}: ProductTitleProps){
   const {product} = useContext(ProductCardContext);
-  const {title: titleProduct} = product;
-
-  let titleToShow = title || titleProduct;
 
   return (
-    <span className={`${styles.productDescription} ${className || ''}`} style={style || {}}>{titleToShow}</span>
+    <span className={`${styles.productDescription} ${className || ''}`} style={style || {}}>{title || product.title}</span>
   )
 }
 

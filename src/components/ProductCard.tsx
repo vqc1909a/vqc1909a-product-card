@@ -1,6 +1,5 @@
 import React from "react";
 import { createContext, CSSProperties} from "react";
-//!Tenemos que importar los estilos como modulos
 import styles from "../styles/styles.module.css";
 import useProduct from '../hooks/useProduct';
 import { Product, onChangeArgs, InitialValues, ProductCardHandlers } from '../interfaces/interfaces';
