@@ -1,4 +1,4 @@
-# vqc1909a-product-card
+# vqca-product-card
 
 Este es un paquete de despliegue en npm
 
@@ -6,7 +6,7 @@ Este es un paquete de despliegue en npm
 ## Ejemplo
 
 ```javascript
-  import { ProductCard, ProductImage, ProductTitle, ProductButtons } from 'vqc1909a-product-card';
+  import { ProductCard, ProductImage, ProductTitle, ProductButtons } from 'vqca-product-card';
 ```
 
 ```javascript
