@@ -1,0 +1,24 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`ProductImage debe de mostrar el componente correctamente con la imagen personalizada 1`] = `
+<img
+  alt="no-image"
+  className="productImg "
+  src="https://www.adslzone.net/app/uploads-adslzone.net/2019/04/borrar-fondo-imagen.jpg"
+  style={Object {}}
+/>
+`;
+
+exports[`ProductImage debe de mostrar iamgen del componente con la imagen del producto 1`] = `
+<div
+  className="productCard "
+  style={Object {}}
+>
+  <img
+    alt="Coffee Mug - Con Imagen"
+    className="productImg "
+    src="/coffee-mug.png"
+    style={Object {}}
+  />
+</div>
+`;
